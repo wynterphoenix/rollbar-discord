@@ -1,0 +1,22 @@
+{
+  "name": "rollbar-discord",
+  "version": "1.0.0",
+  "description": "Rollbar webhook handler for discord, redirects webhooks from rollbar to discord webhooks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rollbar",
+    "discord"
+  ],
+  "author": "Wynter Emerson (wynter.e.phoenix@gmail.com)",
+  "license": "GPL-3.0-only",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "random-token": "0.0.8",
+    "request": "^2.88.0"
+  }
+}
